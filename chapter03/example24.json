@@ -1,0 +1,16 @@
+{
+    "test": [
+        {
+            "question": "The sky is blue.",
+            "answer": true
+        },
+        {
+            "question": "The earth is flat.",
+            "answer": false
+        },
+        {
+            "question": "A cat is a dog.",
+            "answer": false
+        }
+    ]
+}

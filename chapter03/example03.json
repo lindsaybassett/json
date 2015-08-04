@@ -1,0 +1,14 @@
+{
+    "person": {
+        "name": "Lindsay Bassett",
+        "heightInInches": 66,
+        "head": {
+            "hair": {
+                "color": "light blond",
+                "length": "short",
+                "style": "A-line"
+            },
+            "eyes": "green"
+        }
+    }
+}
