@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to JavaScript Object Notation</title>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+		<script>
+			var myXMLHttpRequest = new XMLHttpRequest();
+			var url = "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139";
+			$.getJSON(url, function(data) {
+				// let's display the weather on the page
+				var description = "It's " + data.weather[0].description + " and " + data.main.temp + " degrees in " + data.name + ".";
+				document.getElementById("weather").innerHTML = description;
+				
+				// The object serialized 
+				var myJSON = JSON.stringify(data);					
+				// let's display this in the div with the id "json"
+				document.getElementById("json").innerHTML = myJSON;
+			})
+			.error(function() { 
+				document.getElementById("weather").innerHTML = "failed.";
+				document.getElementById("json").innerHTML = "failed.";
+				document.getElementById("error").innerHTML = "Unable to connect to the open weather map API. Are you connected to the internet?  Is <a href='http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139'>this page</a> responsing?  If it's not, try again later."
+			});
+			  
+		</script>
+	</head>
+	<body>
+		<h1>Introduction to JavaScript Object Notation</h1>
+		<h2>The Weather</h2>
+		<div id="weather">
+		loading...
+		</div>
+		<h2>The JSON as a String</h2>
+		<div id="json">
+		loading...
+		</div>
+		<div id="error">
+		</div>
+	</body>
+</html>

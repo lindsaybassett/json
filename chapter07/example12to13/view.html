@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to JavaScript Object Notation</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="controller.js"></script>
+	</head>
+	<body ng-app="myApp">    
+		<div id="wrapper" ng-controller="myAppController">        
+			 {{ weatherData.weather[0].description }}
+		</div>
+	</body> 
+</html>
