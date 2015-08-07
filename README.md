@@ -1,7 +1,7 @@
 # json
 Code Examples From Introduction to JavaScript Object Notation: A To-the-Point Guide to JSON
 
-This repository has been created to be used with the book Introduction to JavaScript Object Notation.  It is provided as an alternative to copying and pasting examples for eBook readers, and hand typing examples for paper-back readers.  Additionally, snippets of code from the book have been added to a complete code file (such as an HTML file) to form a complete example for you to work with to save you from having to build this example yourself.  
+This repository has been created to be used with the book Introduction to JavaScript Object Notation.  It is provided as an alternative to copying and pasting examples for eBook readers, and hand typing examples for paper-back readers.  Additionally, many snippets of code from the book have been added to a complete code file (such as an HTML file) to form a working example and save you from having to build this example yourself.  
 
 Many examples require an internet connection.  If an example is not working for you, please check that you are connected to the internet before reporting an issue.
 
