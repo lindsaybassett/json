@@ -1,0 +1,24 @@
+{
+    "dt": 1433383200,
+    "temp": {
+        "day": 293.5,
+        "min": 293.5,
+        "max": 293.5,
+        "night": 293.5,
+        "eve": 293.5,
+        "morn": 293.5
+    },
+    "pressure": 1015.06,
+    "humidity": 98,
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "speed": 2.86,
+    "deg": 134,
+    "clouds": 44
+}

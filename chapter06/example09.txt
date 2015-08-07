@@ -1,0 +1,2 @@
+Access-Control-Allow-Methods:POST 
+Access-Control-Allow-Origin:http://www.somebank.com

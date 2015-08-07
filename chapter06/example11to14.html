@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to JavaScript Object Notation</title>
+		<script>
+			// example 6-11, modified to alert the variable "myAnimal"
+			function getTheAnimal(data) {
+				var myAnimal = data.animal; // will be "cat" 
+				alert(myAnimal);
+			}
+
+			// example 6-12, modified for the src file to load from example10.json
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.src = "example10.json";
+			document.getElementsByTagName('head')[0].appendChild(script);
+		</script>
+	</head>
+	<body>
+		<h1>Introduction to JavaScript Object Notation</h1>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Cat",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "type": "number",
+            "description": "Your cat's age in years."
+        },
+        "declawed": {
+            "type": "boolean"
+        }
+    }
+}

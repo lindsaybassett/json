@@ -1,0 +1,50 @@
+{
+    "merchant_info": {
+        "email": "bob@bob.com",
+        "first_name": "Bob",
+        "last_name": "Bobberson",
+        "business_name": "Bob Equipment, LLC",
+        "phone": {
+            "country_code": "001",
+            "national_number": "5555555555"
+        },
+        "address": {
+            "line1": "123 Fake St.",
+            "city": "Somewhere",
+            "state": "OR",
+            "postal_code": "97520",
+            "country_code": "US"
+        }
+    },
+    "billing_info": [
+        {
+            "email": "someguy@someguy.com"
+        }
+    ],
+    "items": [
+        {
+            "name": "Widgets",
+            "quantity": 20,
+            "unit_price": {
+                "currency": "USD",
+                "value": 89
+            }
+        }
+    ],
+    "note": "Special Widgets Order!",
+    "payment_term": {
+        "term_type": "NET_45"
+    },
+    "shipping_info": {
+        "first_name": "Some",
+        "last_name": "Guy",
+        "business_name": "Not applicable",
+        "address": {
+            "line1": "456 Real Fake Dr",
+            "city": "Some Place",
+            "state": "OR",
+            "postal_code": "97501",
+            "country_code": "US"
+        }
+    }
+}

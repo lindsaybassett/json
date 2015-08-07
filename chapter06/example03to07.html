@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to JavaScript Object Notation</title>
+		<script>
+			var myXMLHttpRequest = new XMLHttpRequest();
+			var url = "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139";
+			myXMLHttpRequest.onreadystatechange = function() {
+				if (myXMLHttpRequest.readyState === 4 && myXMLHttpRequest.status === 200) {
+					// the JSON response deserialized 
+					var myObject = JSON.parse(myXMLHttpRequest.responseText);
+					// let's display the weather on the page
+					var description = "It's " + myObject.weather[0].description + " and " + myObject.main.temp + " degrees in " + myObject.name + ".";
+					document.getElementById("weather").innerHTML = description;
+					
+					// The object serialized 
+					var myJSON = JSON.stringify(myObject);					
+					// let's display this in the div with the id "json"
+					document.getElementById("json").innerHTML = myJSON;
+				}
+				else if (myXMLHttpRequest.readyState === 4 && myXMLHttpRequest.status !== 200)
+				{
+				   // fail.
+				   document.getElementById("weather").innerHTML = "failed.";
+				   document.getElementById("json").innerHTML = "failed.";
+				   document.getElementById("error").innerHTML = "Unable to connect to the open weather map API. Are you connected to the internet?  Is <a href='http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139'>this page</a> responsing?  If it's not, try again later."
+				}	
+			}
+			myXMLHttpRequest.open("GET", url, true);
+			myXMLHttpRequest.send();
+		</script>
+	</head>
+	<body>
+		<h1>Introduction to JavaScript Object Notation</h1>
+		<h2>The Weather</h2>
+		<div id="weather">
+		loading...
+		</div>
+		<h2>The JSON as a String</h2>
+		<div id="json">
+		loading...
+		</div>
+		<div id="error">
+		</div>
+	</body>
+</html>
