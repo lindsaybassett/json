@@ -1,0 +1,15 @@
+{
+    "_id": "3636fa3c716f9dd4f7407bd6f7000552",
+    "_rev": "1-8a9527cbfc22e28984dfd3a3e6032635",
+    "firstName": "Billy",
+    "lastName": "Bob",
+    "address": {
+        "street": "123 another st",
+        "city": "Somewhere",
+        "state": "OR",
+        "zip": "97501"
+    },
+    "age": 54,
+    "gender": "male",
+    "famous": false
+}

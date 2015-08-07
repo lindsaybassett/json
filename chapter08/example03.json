@@ -1,0 +1,19 @@
+{
+    "firstName": "Bob",
+    "lastName": "Barker",
+    "age": 91,
+    "addresses": [
+        {
+            "street": "123 fake st",
+            "city": "Somewhere",
+            "state": "OR",
+            "zip": 97520
+        },
+        {
+            "street": "456 fakey ln",
+            "city": "Some Place",
+            "state": "CA",
+            "zip": 96026
+        }
+    ]
+}

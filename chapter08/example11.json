@@ -1,0 +1,13 @@
+{
+    "firstName": "Janet",
+    "lastName": "Jackson",
+    "address": {
+        "street": "456 Fakey Fake st",
+        "city": "Somewhere",
+        "state": "CA",
+        "zip": "96520"
+    },
+    "age": 54,
+    "gender": "female",
+    "famous": true
+}

@@ -1,0 +1,9 @@
+{
+    "famous": {
+        "map": "function(doc){if(doc.lastName!==null&&doc.famous){emit(doc.lastName,null)}}"
+    },
+    "gender_count": {
+        "map": "function(doc){if(doc.gender!==null) emit(doc.gender);}",
+        "reduce": "_count"
+    }
+}

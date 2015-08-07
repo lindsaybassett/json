@@ -1,0 +1,10 @@
+{
+    "_id": "_design/lists",
+    "_rev": "8-4124de7756277c6a937004a763d6247d",
+    "language": "javascript",
+    "views": {
+        "famous": {
+            "map": "function(doc){if(doc.lastName!==null&&doc.famous){emit           (doc.lastName,null)}}"
+        }
+    }
+}

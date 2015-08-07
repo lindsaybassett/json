@@ -1,0 +1,14 @@
+{
+    "firstName": "Octavia",
+    "lastName": "Wilson",
+    "age": 26,
+    "addresses": [
+        {
+            "street": "123 fake st",
+            "city": "Somewhere",
+            "state": "OR",
+            "zip": 97520
+        }
+    ],
+    "galaxy": "Milky Way"
+}

@@ -1,0 +1,20 @@
+{
+    "phoneNumbers": [
+        {
+            "description": "home phone",
+            "number": "555-555-5555"
+        },
+        {
+            "description": "cell phone",
+            "number": "123-456-7890"
+        },
+        {
+            "description": "fax",
+            "number": "456-789-1011"
+        },
+        {
+            "description": "space phone",
+            "number": "932-932-932"
+        }
+    ]
+}

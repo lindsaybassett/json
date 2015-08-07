@@ -1,0 +1,13 @@
+{
+    "db_name": "accounts",
+    "doc_count": 4,
+    "doc_del_count": 0,
+    "update_seq": 8,
+    "purge_seq": 0,
+    "compact_running": false,
+    "disk_size": 32869,
+    "data_size": 1560,
+    "instance_start_time": "1432493477586600",
+    "disk_format_version": 6,
+    "committed_update_seq": 8
+}

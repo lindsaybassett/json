@@ -1,0 +1,4 @@
+POST /accounts/ HTTP/1.1 
+Host: localhost:5984 
+Content-Type: application/json 
+Cache-Control: no-cache
