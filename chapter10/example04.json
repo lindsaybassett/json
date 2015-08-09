@@ -1,0 +1,22 @@
+{
+    "name": "bobatron",
+    "version": "1.0.0",
+    "description": "The extraordinary library of Bob.",
+    "main": "bob.js",
+    "scripts": {
+        "prepublish": "coffee -o lib/ -c src/bob.coffee"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/bobatron/bob.git"
+    },
+    "keywords": [
+        "bob",
+        "tron"
+    ],
+    "author": "Bob Barker <bob.barker@fakemail.com> (http://bob.com/)",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/bobatron/issues"
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+   <general>
+      <playIntro>false</playIntro>
+      <mouseSensitivity>0.54</mouseSensitivity>
+   </general>
+   <display>
+      <complexTextures>true</complexTextures>
+      <brightness>4.2</brightness>
+      <widgetsPerFrame>326</widgetsPerFrame>
+   </display>
+   <sound>
+      <volume>1</volume>
+      <effects>0.68</effects>
+   </sound>
+</settings>
